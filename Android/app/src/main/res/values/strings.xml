@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SATAN</string>
+    <string name="qr_code_read_success_msg">QR successfully read!</string>
+    <string name="ClassNotFoundException_error_msg">Error: Unable to retrieve current paired device.</string>
+    <string name="current_paired_computer_name_msg">Currently connected to: </string>
+    <string name="IOException_read_obj_error_msg">Pairing not yet done.</string>
+    <string name="IOException_write_obj_error_msg">Error: Could not save Computer obj...</string>
+    <string name="no_current_computer">None</string>
+    <string name="invalid_public_key">Error: Scanned code is not a public key.</string>
+    <string name="invalid_empty_password">Error: Password cannot be empty.</string>
+    <string name="incorrect_password">Error: Password is incorrect.</string>
+    <string name="generating_pair">Generating Android RSA keypair.</string>
+    <string name="public_dispatch">Sending to Computer Android Public Key.</string>
+    <string name="tek_establishment">Establishing Session Key (TEK).</string>
+    <string name="dek_mek_establishment">Generating DEK and MEK.</string>
+    <string name="dek_mek_dispatch">Sending to Computer DEK(MEK).</string>
+    <string name="key_storing">Storing Android RSA keypair and MEK.</string>
+    <string name="computer_storing">Storing Computer object in filesystem.</string>
+    <string name="pairing_completed">Android successfully paired with %s.</string>
+    <string name="error">Error:</string>
+    <string name="bluetooth_error">Error: This device doesnt support bluetooth.</string>
+    <string name="bluetooth_not_bound_error">Error: Bounded Computer bluetooth couldnt be found.</string>
+    <string name="bluetooth_connection_error_retry">Error: Couldnt establish bluetooth connection, retrying.</string>
+    <string name="bluetooth_connection_error">Error: Couldnt establish bluetooth connection.</string>
+    <string name="bluetooth_connection_status">Establishing bluetooth connection with paired Computer.</string>
+    <string name="wait_dek_mek">Waiting for Computer encrypted DEK.</string>
+    <string name="send_dek">Sending decrypted DEK to Computer.</string>
+    <string name="heartbeat_error">Error: Heartbeat error, interrupting communication.</string>
+    <string name="pinging_computer">Pinging computer.</string>
+    <string name="password_mismatch">Inserted passwords are different from each other.</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pt.ulisboa.tecnico.sirs.ssandroidapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/deviceNameLabelTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current device:" />
+
+        <TextView
+            android:id="@+id/deviceNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[device name]" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pairingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeActivity2BluetoothPair"
+        android:text="Pairing" />
+
+    <Button
+        android:id="@+id/connectionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeActivity2Connection"
+        android:text="Connection"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/unpairButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="unpair"
+        android:text="Unpair current device"
+        android:visibility="invisible" />
+
+</LinearLayout>
